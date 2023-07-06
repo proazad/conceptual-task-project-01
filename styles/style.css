@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.row {
+    width: 100%;
+}
+
+/* Header Section Styles Start Here  */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #000000;
+    padding: 15px 0px;
+
+}
+
+header>.logo-section {
+    flex-basis: 200px;
+}
+
+header>.logo-section img {
+    max-width: 150px;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+nav li {}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: linear;
+}
+
+nav li a:hover {
+    color: aqua;
+    border-bottom: 1px dashed aqua;
+}
+
+/* Header Section Styles End Here  */
+/* Banner Section Styles Start Here  */
+div.banner-section {
+    display: flex;
+    flex-wrap: no-wrap;
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    height: 100vh;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #161414;
+}
+
+div.banner-section>div.banner-left {}
+
+div.banner-section>div.banner-left h2.banner-heading {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+div.banner-section>div.banner-left p.banner-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+div.banner-section>div.banner-left a {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    font-family: cursive;
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: linear;
+}
+
+div.banner-section>div.banner-left a:hover {
+    background-color: rgb(0, 13, 202);
+    color: white;
+    text-decoration: underline;
+}
+
+div.banner-section>div.banner-right {
+    flex-basis: 40%;
+    text-align: right;
+}
+
+div.banner-section>div.banner-right>img.banner-img {
+    max-width: 300px;
+    height: auto;
+}
