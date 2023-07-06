@@ -180,3 +180,68 @@ div.about-section div.about-right a:hover {
     color: white;
     text-decoration: underline;
 }
+
+
+/* Our Service Section Styles Start From Here  */
+.service-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #161414;
+}
+.service-title{
+    text-align: center;
+}
+.service-title h2{
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 3.5rem;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 50px;
+}
+.service{
+flex-basis: 200px;
+background-color: #000000a6;
+box-shadow: 2px 2px 105px gray;
+border-radius: 5px;
+text-align: center;
+padding: 20px 15px;
+margin-bottom: 15px;
+}
+.service img{
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.service h2{
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.service p{
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.service a{
+    background-color: #dddddd;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: linear;
+}
+.service a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #dddddd;
+}
