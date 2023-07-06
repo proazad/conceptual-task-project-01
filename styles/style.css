@@ -59,6 +59,7 @@ nav li a:hover {
 }
 
 /* Header Section Styles End Here  */
+
 /* Banner Section Styles Start Here  */
 div.banner-section {
     display: flex;
@@ -118,4 +119,64 @@ div.banner-section>div.banner-right {
 div.banner-section>div.banner-right>img.banner-img {
     max-width: 300px;
     height: auto;
+}
+
+/* About us Section Styles Start Here  */
+
+div.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about-title{
+    font-size: 30px;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+.about-title h2 {
+    font-family: cursive;
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+.about-left{
+    flex-basis: 25%;
+}
+.about-left img{
+    max-width: 100%;
+    height: auto;
+}
+.about-right{
+    flex-basis: 25%;
+}
+.about-heading{
+    margin-bottom: 15px;
+}
+div.about-section div.about-right p.about-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+div.about-section div.about-right a {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    font-family: cursive;
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: linear;
+}
+
+div.about-section div.about-right a:hover {
+    background-color: rgb(0, 13, 202);
+    color: white;
+    text-decoration: underline;
 }
