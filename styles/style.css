@@ -216,6 +216,12 @@ text-align: center;
 padding: 20px 15px;
 margin-bottom: 15px;
 }
+.service:hover{
+    box-shadow: 2px 2px 110px rgb(255, 255, 255);
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: linear;
+}
 .service img{
     width: 70px;
     height: auto;
